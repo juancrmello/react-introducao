@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-import profile from './assets/avatar.png';
+import TechList from './components/TechList';
 
 function App() {
-  return <img width="300" src={profile} />
+  return <TechList />
 }
 
 export default App;
